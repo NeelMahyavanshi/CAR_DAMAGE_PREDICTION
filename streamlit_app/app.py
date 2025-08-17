@@ -3,10 +3,14 @@ from PIL import Image
 import os
 import pandas as pd
 from model_helper import SwinV2Classifier
+from huggingface_hub import hf_hub_download
 
 # Configuration
 CLASS_NAMES = ['F_Breakage', 'F_Crushed', 'F_Normal', 'R_Breakage', 'R_Crushed', 'R_Normal']
-MODEL_PATH = "model/best_swinv2_small.pth"
+MODEL_PATH = hf_hub_download(
+    repo_id="Neelkumar/car_damage_detection",
+    filename="best_swinv2_small.pth"
+)
 
 # Multiple examples per class
 EXAMPLE_IMAGES = {
