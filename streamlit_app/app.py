@@ -15,28 +15,28 @@ MODEL_PATH = hf_hub_download(
 # Multiple examples per class
 EXAMPLE_IMAGES = {
     'F_Breakage': [
-        "examples/FB_5.jpg",
-        "examples/FB_30.jpg"
+        "streamlit_app/examples/FB_5.jpg",
+        "streamlit_app/examples/FB_30.jpg"
     ],
     'F_Crushed': [
-        "examples/FC_16.jpg",
-        "examples/FC_149.jpg"
+        "streamlit_app/examples/FC_16.jpg",
+        "streamlit_app/examples/FC_149.jpg"
     ],
     'F_Normal': [
-        "examples/FN_83.jpg",
-        "examples/FN_124.jpg"
+        "streamlit_app/examples/FN_83.jpg",
+        "streamlit_app/examples/FN_124.jpg"
     ],
     'R_Breakage': [
-        "examples/RB_50.jpg",
-        "examples/RB_227.jpg"
+        "streamlit_app/examples/RB_50.jpg",
+        "streamlit_app/examples/RB_227.jpg"
     ],
     'R_Crushed': [
-        "examples/RC_182.jpg",
-        "examples/RC_188.jpg"
+        "streamlit_app/examples/RC_182.jpg",
+        "streamlit_app/examples/RC_188.jpg"
     ],
     'R_Normal': [
-        "examples/RN_28.jpg",
-        "examples/RN_53.jpg"
+        "streamlit_app/examples/RN_28.jpg",
+        "streamlit_app/examples/RN_53.jpg"
     ]
 }
 
