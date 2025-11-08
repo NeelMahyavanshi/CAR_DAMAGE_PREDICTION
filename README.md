@@ -2,6 +2,10 @@
 
 An AI model that can classify images into 6 classes representing different types of car damage.
 
+## 🌟 Live Demo
+
+Experience ImmigrationGPT in action: **[https://car-damage-detections.streamlit.app/](https://car-damage-detections.streamlit.app/)**
+
 ## Key Features & Benefits
 
 *   **Image Classification:** Accurately classifies car damage into six distinct categories: F_Breakage, F_Crushed, F_Normal, R_Breakage, R_Crushed, and R_Normal.
